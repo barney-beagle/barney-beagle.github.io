@@ -11,7 +11,7 @@ NGINX에서 요청의 크기가 클라이언트 요청 본문의 최대 허용 �
 ```
 nginx.ingress.kubernetes.io/proxy-body-size: 1024m
 ```
-`client_max_body_size` 파라미터는 **Content-Length" 요청 헤더 필드에 지정된 클라이언트 요청 본문의 최대 허용 크기를 설정합니다.
+`client_max_body_size` 파라미터는 **Content-Length** 요청 헤더 필드에 지정된 클라이언트 요청 본문의 최대 허용 크기를 설정합니다.
 크기를 0으로 설정하면 클라이언트 요청 본문 크기를 확인하지 않습니다.
 
 [kubernetes NGINX annotations]: https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/#custom-max-body-size
