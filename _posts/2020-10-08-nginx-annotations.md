@@ -1,5 +1,5 @@
 ---
-title: "NGINX Annotations #1"
+title: "NGINX Annotations"
 date: 2020-10-08 11:30:00 +0900
 categories: kubernetes
 ---
